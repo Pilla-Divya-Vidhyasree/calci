@@ -1,38 +1,37 @@
-#button, #button1{
+#button, #button1 {
     width: 60px;
     height: 50px;
-    border-radius : 20%;
+    border-radius: 20%;
     background-color: #565656;
-  	font-size : 25px;
-  	margin: 3px;
+    font-size: 25px;
+    margin: 3px;
 }
-#input_holder{
-    height:100px;
-    width:270px;
-  	border-radius : 5%;
-    font-size : 20px;
+
+#input_holder {
+    height: 100px;
+    width: 270px;
+    border-radius: 5%;
+    font-size : 40px;
+    text-align-last:end;
 }
-#box{
-  
-  	border-width : 3px;
-  border-style : solid;
-  	border-color : #1A1A1A;
-    width:320px;
-    height:500px;
+
+#box {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #1A1A1A;
+    width: 320px;
+    height: 500px;
     display: flex;
-    background-color:#ACACAC;
+    background-color: #ACACAC;
     flex-direction: column;
-    align-items:center;
-    justify-content:space-between;
-  	justify-content : space-around;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 5%;
 }
+
 #col {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-#button1{
-  background-color:#1A1A1A;
-  color:white;
 }
