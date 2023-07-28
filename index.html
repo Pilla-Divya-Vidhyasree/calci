@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charset="utf-8" />
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style.css">
     <title>Calculator</title>
 
 
@@ -15,34 +15,36 @@
       <input id="input_holder"/>
     </div>
     <div id="col1">
-      <button id="button">C</button>
-      <button id="button">%</button>
-      <button id="button">dek</button>
-      <button id="button">/</button>
+      <button id="button1" class="C" onclick=display("C")>C</button>
+      <button id="button1" onclick=display("%")>%</button>
+      <button id="button1" class="del" onclick=display("del")>del</button>
+      <button id="button1" onclick=display("/") >/</button>
     </div>
     <div id="col2">
-      <button id="button">7</button>
-      <button id="button">8</button>
-      <button id="button">9</button>
-      <button id="button">*</button>
+      <button id="button" onclick=display("7")>7</button>
+      <button id="button" onclick=display("8")>8</button>
+      <button id="button" onclick=display("9")>9</button>
+      <button id="button1" onclick=display("*")>*</button>
     </div>
     <div id="col3">
-      <button id="button">4</button>
-      <button id="button">5</button>
-      <button id="button">6</button>
-      <button id="button">-</button>
+      <button id="button" onclick=display("4")>4</button>
+      <button id="button" onclick=display("5")>5</button>
+      <button id="button" onclick=display("6")>6</button>
+      <button id="button1" onclick=display("-")>-</button>
     </div>
     <div id="col4">
-      <button id="button">1</button>
-      <button id="button">2</button>
-      <button id="button">3</button>
-      <button id="button">+</button>
+      <button id="button" onclick=display("1")>1</button>
+      <button id="button" onclick=display("2")>2</button>
+      <button id="button" onclick=display("3")>3</button>
+      <button id="button1" onclick=display("+")>+</button>
     </div>
     <div id="col5">
-      <button id="button">00</button>
-      <button id="button">0</button>
-      <button id="button">.</button>
-      <button id="button">=</button>
+      <button id="button" onclick=display("00")>00</button>
+      <button id="button" onclick=display("0")>0</button>
+      <button id="button" onclick=display(".")>.</button>
+      <button id="button1" onclick=solve()>=</button>
     </div>
   </div>
+    <script src="script.js"></script>
 </body>
+</html>
